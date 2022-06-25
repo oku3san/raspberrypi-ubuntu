@@ -1,0 +1,4 @@
+- hosts: raspberrypi-ubuntu
+  become: yes
+  roles:
+    - common

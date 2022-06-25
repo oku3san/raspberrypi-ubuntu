@@ -1,0 +1,4 @@
+all:
+  hosts:
+    raspberrypi-ubuntu:
+      ansible_host: ubuntu.local
