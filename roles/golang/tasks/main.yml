@@ -1,0 +1,4 @@
+---
+# tasks file for golang
+- name: Install golang
+  import_tasks: install.yml
