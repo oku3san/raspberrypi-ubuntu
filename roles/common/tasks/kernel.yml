@@ -1,0 +1,12 @@
+- name: Increase value of net.core.somaxconn
+  sysctl:
+    name: net.core.somaxconn
+    value: 8192
+    sysctl_set: yes
+
+- name: Increase value of net.ipv4.ip_local_port_range
+  sysctl:
+    name: net.ipv4.ip_local_port_range
+    value: '1024 65535'
+    sysctl_set: yes
+
