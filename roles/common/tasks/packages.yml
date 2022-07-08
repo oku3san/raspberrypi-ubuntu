@@ -6,3 +6,8 @@
   apt:
     upgrade: 'yes'
   notify: reboot
+
+- name: Install i2c-tools
+  apt:
+    name: i2c-tools
+    state: latest
