@@ -57,3 +57,8 @@
     name: ubuntu
     groups: docker
     append: yes
+
+- name: Install make
+  apt:
+    name: make
+    state: latest
