@@ -1,0 +1,4 @@
+---
+# tasks file for i2c-tools
+- name: Install i2c-tools
+  import_tasks: install.yml

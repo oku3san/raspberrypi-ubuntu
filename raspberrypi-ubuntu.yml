@@ -5,3 +5,4 @@
     - golang
     - docker
     - node-exporter
+    - i2c-tools
