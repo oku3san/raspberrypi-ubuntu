@@ -4,3 +4,4 @@
     - common
     - golang
     - docker
+    - node-exporter
