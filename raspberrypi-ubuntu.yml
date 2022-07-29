@@ -6,7 +6,4 @@
     - docker
     - node-exporter
     - i2c-tools
-    - name: newrelic.newrelic-infra
-      vars:
-        nrinfragent_config:
-          license_key: "{{ LICENCE }}"
+    - newrelic.newrelic-infra
